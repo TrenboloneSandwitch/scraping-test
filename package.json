@@ -1,0 +1,10 @@
+{
+  "type": "module",
+  "name": "playwright-scraper",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.0.3",
+    "moment": "^2.29.4",
+    "playwright": "^1.29.2"
+  }
+}
