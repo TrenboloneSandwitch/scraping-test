@@ -3,7 +3,7 @@ import { formatDate, decToHex } from './utils.js';
 
 export const readFile = async () => {
   try {
-    const data = await fs.readFile('./data.txt', { encoding: 'utf8' });
+    const data = await fs.readFile('./data/data.txt', { encoding: 'utf8' });
     return data;
   } catch (err) {
     console.log(err);
@@ -12,7 +12,7 @@ export const readFile = async () => {
 
 export const writeFile = async (content) => {
   try {
-    await fs.writeFile('./result.txt', content, 'utf-8');
+    await fs.writeFile('./data/result.txt', content, 'utf-8');
   } catch (err) {
     console.log(err);
   }

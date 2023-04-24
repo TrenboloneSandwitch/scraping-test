@@ -2,3 +2,5 @@ node_modules
 .env
 data.txt
 result.txt
+.DS_Store
+data/

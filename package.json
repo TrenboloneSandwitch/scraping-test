@@ -4,7 +4,9 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.0.3",
+    "fs": "^0.0.1-security",
     "moment": "^2.29.4",
-    "playwright": "^1.29.2"
+    "playwright": "^1.29.2",
+    "xlsx": "https://cdn.sheetjs.com/xlsx-0.19.3/xlsx-0.19.3.tgz"
   }
 }
